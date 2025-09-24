@@ -1,0 +1,14 @@
+{
+  "name": "acadus-alliance-project-2025",
+  "private": true,
+  "scripts": {
+    "build:css": "tailwindcss -i ./Styles/tailwind.css -o ./wwwroot/css/site.css --minify",
+    "watch:css": "tailwindcss -i ./Styles/tailwind.css -o ./wwwroot/css/site.css --watch"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13"
+  }
+}
+

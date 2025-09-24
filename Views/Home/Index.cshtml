@@ -1,0 +1,27 @@
+﻿@{
+    Layout = "_Landing";
+    ViewData["Title"] = "Acadus - Track Your Journey";
+}
+
+<div class="min-h-screen bg-white flex flex-col items-center justify-center px-4">
+    <!-- Logo -->
+    <img src="~/images/acaduslogo.png" alt="Acadus logo" class="w-56 h-56 mb-4 object-contain" />
+    
+    <!-- Main text content -->
+    <div class="text-center mb-8">
+        <h1 class="text-4xl md:text-5xl font-bold text-black mb-2 font-poppins">
+            Track your <span class="text-mid-color">journey</span>
+        </h1>
+        <h2 class="text-4xl md:text-5xl font-bold text-black mb-4 font-poppins">
+            Celebrate your <span class="text-mid-color">progress</span>
+        </h2>
+        <p class="text-lg text-black font-geologica mt-4">
+            Designed to keep your journey clear and manageable.
+        </p>
+    </div>
+    
+    <!-- Single Get Started button -->
+    <a href="/Auth/Login" class="btn-primary inline-block px-8 py-4 rounded-lg shadow-lg hover:shadow-xl transition-all duration-300 font-poppins font-semibold text-lg text-center text-white no-underline cursor-pointer">
+    Get started
+</a>
+</div>
